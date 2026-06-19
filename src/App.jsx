@@ -1,7 +1,10 @@
-import React from "react";
-
+import NotesPage from "./pages/NotesPage";
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <NotesPage />
+    </>
+  );
 }
 
 export default App;
