@@ -3,11 +3,11 @@ import NoteCard from "../components/NoteCard.jsx";
 
 const NotesPage = () => {
   return (
-    <div>
+    <>
       {notes.map((note) => {
-        return <NoteCard note={note} key={note.$id} />;
+        return <NoteCard key={note.$id} note={note} />;
       })}
-    </div>
+    </>
   );
 };
 

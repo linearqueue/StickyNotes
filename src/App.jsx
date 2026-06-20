@@ -1,10 +1,11 @@
 import NotesPage from "./pages/NotesPage";
-function App() {
+
+const App = () => {
   return (
     <>
       <NotesPage />
     </>
   );
-}
+};
 
 export default App;
